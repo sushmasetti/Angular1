@@ -1,0 +1,13 @@
+
+<button (click)="isLoggedIn =!isLoggedIn">Toggle Div</button>
+<div style="background-color: goldenrod;" 
+*ngIf="isLoggedIn==true; else elseTemplate" >
+    Value of isLoggedIn={{isLoggedIn}}
+</div>
+<ng-template #elseTemplate>
+    <div style="background-color: white;">
+        Value of isLoggedIn={{isLoggedIn}}
+    </div>
+</ng-template>
+
+<h1>sushma</h1>

@@ -1,0 +1,32 @@
+<h1>
+    welcome to {{title}} !  <!--  expression binding  -->
+  </h1>
+  <!-- [html/angular attribute name]="typescript(TS) PropName" => TS to html-->
+  <!-- (angularEvent)="FunctionName()" => html to ts-->
+  <hr>
+  City :<input type="text" [(ngModel)]="cityName"/>
+  State :<input type="text" [value]="State"/>
+  Country :<input type="text" [value]="Country"/>
+  Tovisit :<input type="text" [value]="PlaceToSee"/>
+  
+  <button (click)="OnBtnClick(cityName,State,Country,PlaceToSee)">Update</button>
+  <hr>
+  <h3>  Hello,welcome to {{cityName}},in {{State}} which is in {{Country}}.
+  </h3>
+  
+  <b>Places to visit</b> {{PlaceToSee}}<h1>
+    welcome to {{title}} !  <!--  expression binding  -->
+  </h1>
+  <!-- [html/angular attribute name]="typescript(TS) PropName" => TS to html-->
+  <!-- (angularEvent)="FunctionName()" => html to ts-->
+  <hr>
+  City :<input type="text" [(ngModel)]="cityName"/>
+  State :<input type="text" [value]="State"/>
+  Country :<input type="text" [value]="Country"/>
+  Tovisit :<input type="text" [value]="PlaceToSee"/>
+  
+  <button (click)="OnBtnClick(cityName,State,Country,PlaceToSee)">Update</button>
+  <hr>
+  <h3>  Hello,welcome to {{cityName}},in {{State}} which is in {{Country}}.
+  </h3>
+  <b>Places to visit</b> {{PlaceToSee}}

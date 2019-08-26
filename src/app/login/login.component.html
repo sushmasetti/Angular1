@@ -1,0 +1,10 @@
+<p>login works!</p>
+<b>Enter Username:</b><input type="text "  [(ngModel)]="un"/>
+<br/>
+<b>Enter Password:</b><input type="text "  [(ngModel)]="pwd"/>
+
+<button [disabled]="buttonDisabled" (click)="Login(status , imgStatus)">Login</button>
+<!-- <button #id (click)="Login(id)">Login</button> -->
+<hr>
+<span #status class="login-status">{{loginStatus}}</span>
+<img #imgStatus src=""/>

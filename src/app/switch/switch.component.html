@@ -1,0 +1,22 @@
+Enter value for n1 :<input type="number" [(ngModel)]="n1"/>
+<br/>
+Enter value for n2 :<input type="number" [(ngModel)]="n2"/>
+<br/>
+<button class="btn btn-primary" (click)="currentOperator='+'">Add</button>
+<button class="btn btn-success"(click)="currentOperator='-'">Sub</button>
+<button class="btn btn-warning" (click)="currentOperator='*'">Mul</button>
+<button class="btn btn-danger" (click)="currentOperator='/'">Div</button>
+<hr>
+
+
+<div [ngSwitch]="currentOperator">
+    <!-- <div *ngSwitchCase="'+'">Addition Result: {{n1+n2}}</div>
+    <div *ngSwitchCase="'-'">Sub Result: {{n1-n2}}</div>
+    <div *ngSwitchCase="'*'">Multiplication Result: {{n1*n2}}</div>
+    <div *ngSwitchCase="'/'">Divison Result: {{n1/n2}}</div>
+    <div *ngSwitchDefault>output2</div> -->
+    <div *ngSwitchCase="'+'"><app-if></app-if></div>
+    <div *ngSwitchCase="'-'"><app-registration></app-registration></div>
+    <div *ngSwitchCase="'*'"><app-for></app-for></div>
+    <div *ngSwitchCase="'/'"><app-login></app-login></div>
+</div>

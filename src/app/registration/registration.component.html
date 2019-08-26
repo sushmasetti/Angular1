@@ -1,0 +1,13 @@
+<p>registration works!</p>
+
+<b>Enter name:</b><input type="text "  [(ngModel)]="name"/>
+<br/>
+<b>Enter age</b><input type="number"  [(ngModel)]="age"/>
+<br/>
+<b>Enter email:</b><input type="text "  [(ngModel)]="email"/>
+<br/>
+
+<button (click)="Register()">Register</button>
+<hr>
+
+<span>{{registerStatus}}</span>
