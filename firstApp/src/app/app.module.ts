@@ -20,6 +20,7 @@ import { SpeakComponent } from './speak/speak.component';
 import { ListenComponent } from './listen/listen.component';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
+import { CommunicatorComponent } from './communicator/communicator.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BComponent } from './b/b.component';
     SpeakComponent,
     ListenComponent,
     AComponent,
-    BComponent
+    BComponent,
+    CommunicatorComponent
   ],
   imports: [
     BrowserModule,
