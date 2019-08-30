@@ -12,4 +12,18 @@
 {{Name | validate}}</span> -->
 <!-- <app-listen></app-listen> -->
 <!-- <app-b></app-b> -->
-<app-communicator></app-communicator>
+<!-- <app-communicator></app-communicator> -->
+<!-- <app-http-promise></app-http-promise> -->
+<!-- <app-http-observable></app-http-observable> -->
+<!-- <app-promise-l1></app-promise-l1> -->
+<!-- <app-angular-material></app-angular-material> -->
+<a [routerLink] = "['/products']" > Products </a>
+<a [routerLink] = "[{outlets : {footerOutlet : ['about','1001','akhila']}}]">RouterLink with Params</a>
+<a [routerLink] = "[{outlets : {footerOutlet : ['services']}}]">
+  use named outlets
+</a>
+<hr>
+<button (click) = "onBtnClick()">click to navigate</button>
+<hr>
+<router-outlet></router-outlet>
+<router-outlet name= 'footerOutlet'></router-outlet>

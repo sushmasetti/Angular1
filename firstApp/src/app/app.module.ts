@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
+// import { MaterialModule } from './material.module';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +25,14 @@ import { ListenComponent } from './listen/listen.component';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
 import { CommunicatorComponent } from './communicator/communicator.component';
+import { HttpPromiseComponent } from './http-promise/http-promise.component';
+import { RoutingModule } from './routing.module';
+import { HttpObservableComponent } from './http-observable/http-observable.component';
+import { ProductsComponent } from './products/products.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { ErrorComponent } from './error/error.component';
+// import { AngularMaterialComponent } from './angular-material/angular-material.component';
 
 @NgModule({
   declarations: [
@@ -40,12 +52,22 @@ import { CommunicatorComponent } from './communicator/communicator.component';
     ListenComponent,
     AComponent,
     BComponent,
-    CommunicatorComponent
+    CommunicatorComponent,
+    HttpPromiseComponent,
+    HttpObservableComponent,
+    ProductsComponent,
+    AboutComponent,
+    ServicesComponent,
+    ErrorComponent,
+    // AngularMaterialComponent,
+    // MaterialModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
