@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="language.jsp">
+Name :<input type ="text" name="name"/>
+ <select name="pl">
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="Java">Java</option>
+<option value="Python">Python</option>
+</select>
+
+
+<input type ="submit"/>
+</form>
+</body>
+</html>

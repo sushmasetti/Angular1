@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:useBean id="info" class="simpleBean.Language"/>  
+ <jsp:setProperty property="*" name="info"/> 
+<jsp:getProperty property="name" name="info"/><br> 
+<jsp:getProperty property="language" name="info" /><br>
+
+<% out.println(info.languageComments());%>
+
+</body>
+</html>

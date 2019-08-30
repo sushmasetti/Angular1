@@ -1,0 +1,5 @@
+package com.sk.corejava.model;
+
+public class Employee {
+
+}

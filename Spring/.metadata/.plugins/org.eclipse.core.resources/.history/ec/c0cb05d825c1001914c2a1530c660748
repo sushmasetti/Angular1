@@ -1,0 +1,99 @@
+package com.example.demo;
+
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class MyController {
+	
+	@Autowired
+	EmpDBDao dao;
+//	@Autowired
+//	DeptDBDao dbo;
+	
+	@RequestMapping("/")
+	public String welcome()
+	{
+		return "welcome.jsp";
+		}
+	@RequestMapping("/displayAll")
+	@ResponseBody
+	public String displayAllEmployees()
+	{
+		return dao.findAll().toString();
+		}
+	
+	@RequestMapping("/displayEmp")
+	@ResponseBody
+	public Optional<Employee> displayEmployee(@RequestParam int eid)
+	{
+		return dao.findById(eid);
+		}
+	
+	  @RequestMapping("/displayByDesignation")
+	  
+	  @ResponseBody 
+	  public List<Employee> displayByDesignation(@RequestParam String designation) 
+	  {
+		  return dao.findByDesignation(designation); 
+		  }
+	 
+	
+	  @RequestMapping("/displayByAge")
+		@ResponseBody
+		public List<Employee> displayByAge(@RequestParam String designation)
+		{
+			return dao.getEmployeesInSortedByAge(designation);
+			}
+
+	  
+	  @RequestMapping("/insertEmp")
+		@ResponseBody
+		public String createEmployee(Employee emp)
+		{
+		  dao.save(emp);
+			return "successfully inserted";
+			}
+	  
+
+	  @RequestMapping("/updateEmp")
+			@ResponseBody
+			public String updateEmployee(Employee emp)
+			{
+		  int id =emp.getEid();
+		  if(dao.existsById(id))
+		  {
+			  dao.save(emp);
+				return "successfully updated";
+		  }
+		  else
+		  {
+			  return "Sorry ! invalid ID";
+		  }
+				}
+	  
+
+	  @RequestMapping("/deleteEmp")
+			@ResponseBody
+			public String deleteEmployee(@RequestParam int eid)
+			{
+		 
+		  if(dao.existsById(eid))
+		  {
+			  dao.deleteById(eid);
+				return "successfully deleted";
+		  }
+		  else
+		  {
+			  return "Sorry ! invalid ID";
+		  }
+				
+		  
+}

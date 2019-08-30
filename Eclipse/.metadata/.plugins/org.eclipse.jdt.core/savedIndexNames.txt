@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\Abridge Soultions\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1657330681.index
+1205824980.index
+4031865458.index
+2939056057.index
+1595694945.index
+1681131438.index
+4005953615.index
+1721023644.index

@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `sush`.`product`.`code` AS `code`,`sush`.`product`.`name` AS `name`,`sush`.`product`.`price` AS `price` from `sush`.`product`
+md5=55a47cc40007707546cd0b57a493163b
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2019-07-31 03:37:17
+create-version=2
+source=select code,name,price from product
+client_cs_name=latin1
+connection_cl_name=latin1_swedish_ci
+view_body_utf8=select `sush`.`product`.`code` AS `code`,`sush`.`product`.`name` AS `name`,`sush`.`product`.`price` AS `price` from `sush`.`product`
+mariadb-version=100225

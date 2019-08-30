@@ -1,0 +1,20 @@
+server.port=8085
+spring.h2.console.enabled=true
+spring.datasource.platform=h2
+spring.datasource.url=jdbc:h2:~/test
+
+
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+#spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
+#spring.datasource.username=root
+#spring.datasource.password=password
+
+#for anydatabase add jarfiles of that particular database
+
+#spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+#spring.datasource.url=jdbc:mariadb://localhost:3306/sush
+#spring.datasource.username=root	
+#spring.datasource.password=password
+#spring.jpa.hibernate.ddl-auto=create
+
+

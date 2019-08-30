@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\Abridge Soultions\spring\.metadata\.plugins\org.eclipse.jdt.core
+1589287518.index
+3721734803.index
+959752481.index
+1978426414.index
+2702826570.index
+3055486099.index
+2534913293.index
+1009690907.index
+1656720322.index
+2808139404.index
+2614380653.index

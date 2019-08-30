@@ -1,0 +1,206 @@
+2019-07-29  2:02:13 4552 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-07-29  2:02:13 4552 [Note] InnoDB: Uses event mutexes
+2019-07-29  2:02:13 4552 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-07-29  2:02:13 4552 [Note] InnoDB: Number of pools: 1
+2019-07-29  2:02:13 4552 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-07-29  2:02:13 4552 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2019-07-29  2:02:13 4552 [Note] InnoDB: Completed initialization of buffer pool
+2019-07-29  2:02:14 4552 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-07-29  2:02:14 4552 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-07-29  2:02:14 4552 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-07-29  2:02:14 4552 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-07-29  2:02:14 4552 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-07-29  2:02:14 4552 [Note] InnoDB: 5.7.26 started; log sequence number 1619996
+2019-07-29  2:02:14 7312 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.2\data\ib_buffer_pool
+2019-07-29  2:02:14 7312 [Note] InnoDB: Buffer pool(s) load completed at 190729  2:02:14
+2019-07-29  2:02:14 4552 [Note] Server socket created on IP: '::'.
+2019-07-29  2:02:14 4552 [Note] Reading of all Master_info entries succeeded
+2019-07-29  2:02:14 4552 [Note] Added new Master_info '' to hash table
+2019-07-29  2:02:14 4552 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.25-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-07-29  2:07:15 8480 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-07-29  2:07:15 8480 [Note] feedback plugin: server replied 'ok'
+2019-07-29  4:57:31 8968 [Warning] Aborted connection 9 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-07-30  4:37:00 6744 [Warning] Aborted connection 15 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-07-31  2:52:16 4236 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-07-31  4:50:19 4236 [Warning] Aborted connection 20 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-07-31  4:59:58 4236 [Warning] Aborted connection 21 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-07-31  5:02:52 6620 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2019-07-31  5:02:52 6620 [Note] Event Scheduler: Purging the queue. 0 events
+2019-07-31  5:02:52 1964 [Note] InnoDB: FTS optimize thread exiting.
+2019-08-01 20:29:03 3812 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-01 20:29:03 3812 [Note] InnoDB: Uses event mutexes
+2019-08-01 20:29:03 3812 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-01 20:29:03 3812 [Note] InnoDB: Number of pools: 1
+2019-08-01 20:29:03 3812 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-01 20:29:04 3812 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2019-08-01 20:29:04 3812 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-01 20:29:04 3812 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-01 20:29:04 3812 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2044000
+2019-08-01 20:29:12 3812 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-01 20:29:12 3812 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-01 20:29:12 3812 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-01 20:29:12 3812 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-01 20:29:12 3812 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-08-01 20:29:12 3812 [Note] InnoDB: 5.7.26 started; log sequence number 2044009
+2019-08-01 20:29:12 4824 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.2\data\ib_buffer_pool
+2019-08-01 20:29:12 4824 [Note] InnoDB: Buffer pool(s) load completed at 190801 20:29:12
+2019-08-01 20:29:12 3812 [Note] Server socket created on IP: '::'.
+2019-08-01 20:29:12 3812 [Note] Reading of all Master_info entries succeeded
+2019-08-01 20:29:12 3812 [Note] Added new Master_info '' to hash table
+2019-08-01 20:29:12 3812 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.25-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-01 20:34:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:35:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:36:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:37:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:38:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:39:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:40:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:41:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:42:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:43:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:44:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:45:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:46:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:47:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:48:12 4856 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-01 20:49:13 4856 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-01 20:49:13 4856 [Note] feedback plugin: server replied 'ok'
+2019-08-02  4:43:52 4860 [Warning] Aborted connection 9 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-05  2:05:58 4860 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-05  2:31:45 4860 [Warning] Aborted connection 11 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-05  5:00:37 4860 [Warning] Aborted connection 12 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-05 21:16:58 3964 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-05 21:16:58 3964 [Note] InnoDB: Uses event mutexes
+2019-08-05 21:16:58 3964 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-05 21:16:58 3964 [Note] InnoDB: Number of pools: 1
+2019-08-05 21:16:58 3964 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-05 21:16:58 3964 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2019-08-05 21:16:59 3964 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-05 21:16:59 3964 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-05 21:16:59 3964 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2090721
+2019-08-05 21:17:07 3964 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-05 21:17:07 3964 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-05 21:17:07 3964 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-05 21:17:07 3964 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-05 21:17:07 3964 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-08-05 21:17:07 3964 [Note] InnoDB: Waiting for purge to start
+2019-08-05 21:17:07 3964 [Note] InnoDB: 5.7.26 started; log sequence number 2090730
+2019-08-05 21:17:07 5016 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.2\data\ib_buffer_pool
+2019-08-05 21:17:07 5016 [Note] InnoDB: Buffer pool(s) load completed at 190805 21:17:07
+2019-08-05 21:17:07 3964 [Note] Server socket created on IP: '::'.
+2019-08-05 21:17:08 3964 [Note] Reading of all Master_info entries succeeded
+2019-08-05 21:17:08 3964 [Note] Added new Master_info '' to hash table
+2019-08-05 21:17:08 3964 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.25-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-05 21:22:08 5036 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-05 21:22:08 5036 [Note] feedback plugin: server replied 'ok'
+2019-08-07 21:39:20 5040 [Warning] Aborted connection 10 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:39:35 8572 [Warning] Aborted connection 11 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:47:40 9404 [Warning] Aborted connection 12 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:48:57 8572 [Warning] Aborted connection 13 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:49:10 9404 [Warning] Aborted connection 14 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:49:23 8572 [Warning] Aborted connection 15 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:49:37 9404 [Warning] Aborted connection 16 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:50:44 8572 [Warning] Aborted connection 17 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-07 21:50:53 9404 [Warning] Aborted connection 18 to db: 'sush' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-08-08 14:37:08 9404 [Warning] Aborted connection 9 to db: 'sush' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-09 11:30:22 5036 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-09 11:30:22 5036 [Note] feedback plugin: server replied 'ok'
+2019-08-14 17:06:51 5048 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2019-08-14 17:06:53 5048 [Note] Event Scheduler: Purging the queue. 0 events
+2019-08-14 17:06:53 4996 [Note] InnoDB: FTS optimize thread exiting.
+2019-08-14 17:06:56 5036 [ERROR] feedback plugin: getaddrinfo() failed for url 'https://mariadb.org/feedback_plugin/post': No such host is known. 
+2019-08-14 17:07:00 5048 [Note] InnoDB: Starting shutdown...
+2019-08-14 17:07:00 5016 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.2\data\ib_buffer_pool
+2019-08-14 17:07:00 5016 [Note] InnoDB: Buffer pool(s) dump completed at 190814 17:07:00
+2019-08-14 17:07:01 5048 [Note] InnoDB: Shutdown completed; log sequence number 2090767
+2019-08-14 17:07:01 5048 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-08-14 17:07:01 5048 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe: Shutdown complete
+
+2019-08-16  8:36:27 3752 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-08-16  8:36:27 3752 [Note] InnoDB: Uses event mutexes
+2019-08-16  8:36:27 3752 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2019-08-16  8:36:27 3752 [Note] InnoDB: Number of pools: 1
+2019-08-16  8:36:27 3752 [Note] InnoDB: Using SSE2 crc32 instructions
+2019-08-16  8:36:27 3752 [Note] InnoDB: Initializing buffer pool, total size = 1G, instances = 1, chunk size = 128M
+2019-08-16  8:36:27 3752 [Note] InnoDB: Completed initialization of buffer pool
+2019-08-16  8:36:27 3752 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-08-16  8:36:31 3752 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2019-08-16  8:36:31 3752 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-08-16  8:36:31 3752 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-08-16  8:36:31 3752 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-08-16  8:36:31 3752 [Note] InnoDB: 5.7.26 started; log sequence number 2090767
+2019-08-16  8:36:31 4792 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.2\data\ib_buffer_pool
+2019-08-16  8:36:31 3752 [Note] Server socket created on IP: '::'.
+2019-08-16  8:36:32 4792 [Note] InnoDB: Buffer pool(s) load completed at 190816  8:36:32
+2019-08-16  8:36:32 3752 [Note] Reading of all Master_info entries succeeded
+2019-08-16  8:36:32 3752 [Note] Added new Master_info '' to hash table
+2019-08-16  8:36:32 3752 [Note] C:\Program Files\MariaDB 10.2\bin\mysqld.exe: ready for connections.
+Version: '10.2.25-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2019-08-16  8:41:32 4812 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-16  8:41:32 4812 [Note] feedback plugin: server replied 'ok'
+2019-08-19 11:01:08 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:01:09 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:01:46 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:01:47 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:06:43 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:06:45 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:06:46 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:10:18 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:10:19 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:10:21 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:12:21 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:12:23 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:31:06 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:31:07 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:31:24 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:31:25 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:31:26 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:37:30 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:37:31 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 11:37:33 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 14:36:57 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 14:36:59 4816 [Warning] Access denied for user 'root	'@'localhost' (using password: YES)
+2019-08-19 14:37:56 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:37:57 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:37:58 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:39:56 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:39:57 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:39:59 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:41:04 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:41:05 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:41:07 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:42:21 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:42:22 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:42:24 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:25 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:26 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:27 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:45 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:46 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:43:47 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:45:11 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:45:12 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:45:14 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:47:06 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:47:07 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:47:09 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:49:38 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:49:40 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:49:50 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-19 14:49:52 4816 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2019-08-21  9:10:07 6664 [Warning] Aborted connection 9 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 5652 [Warning] Aborted connection 159 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 12736 [Warning] Aborted connection 150 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 13052 [Warning] Aborted connection 151 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 12296 [Warning] Aborted connection 152 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 9036 [Warning] Aborted connection 153 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 6156 [Warning] Aborted connection 154 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 11208 [Warning] Aborted connection 155 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 9056 [Warning] Aborted connection 156 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 1424 [Warning] Aborted connection 157 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21  9:10:07 11676 [Warning] Aborted connection 158 to db: 'book' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-08-21 12:55:04 4812 [Note] feedback plugin: report to 'https://mariadb.org/feedback_plugin/post' was sent
+2019-08-21 12:55:04 4812 [Note] feedback plugin: server replied 'ok'

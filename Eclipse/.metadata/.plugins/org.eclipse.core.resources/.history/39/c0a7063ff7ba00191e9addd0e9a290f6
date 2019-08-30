@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="language.jsp">
+Name :<input type ="text" name="name"/>
+ <INPUT TYPE="radio" NAME="radios" VALUE="java" >
+           java
+           <INPUT TYPE="radio" NAME="radios" VALUE="c++">
+            c++
+            <INPUT TYPE="radio" NAME="radios" VALUE="others">
+            others
+           <BR>
+           <br>
+
+<input type ="submit"/>
+</body>
+</html>

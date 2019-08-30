@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Abridge Soultions\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4005953615.index
+1205824980.index
+208561136.index
+2939056057.index
+1681131438.index
+1657330681.index

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="bean1" scope="prototype" class="com.sk.HelloWorld">
+		<property name="msg" value="Hello world from Spring"></property>
+	</bean>
+	<bean id="bean2" class="com.sk.HelloConstr">
+		<constructor-arg value="hi from constr"></constructor-arg>
+	</bean>
+	
+	<bean id="bean3" class="com.sk.Person" autowire="byName">
+		<property name="a" value="3"></property>
+		<property name="b" value="4"></property>
+		<!--<property name="c" ref="calB"></property>  -->
+	</bean>
+	<bean id="c" class="com.sk.CalcA"></bean>
+	<bean id="calB" class="com.sk.CalcB"></bean>
+</beans>

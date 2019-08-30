@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="bean4" class="com.sk.one.Employee" autowire="byName">
+		<property name="name" value="sushma"></property>
+		<property name="id" value="105"></property>
+		<!--<property name="c" ref="calB"></property>  -->
+	</bean>
+	<bean id="d" class="com.sk.one.PurchaseDept"></bean>
+	<!-- <bean id="calB" class="com.sk.CalcB"></bean>ll,p -->
+</beans>

@@ -1,0 +1,36 @@
+package simpleBean;
+
+public class Language {
+	
+		String language;
+		String name;
+		public String getLanguage() {
+		return language;
+		}
+		public void setAge(String language) {
+		this.language = language;
+		}
+		public String getName() {
+		return name;
+		}
+		public void setName(String name) {
+		this.name = name;
+		}
+public void languageComments() {
+	if (lan == "java")
+	{
+		System.out.print("java");
+	}
+	else if(lan == "c++")
+	{
+		System.out.print("c++");
+	}
+	else
+	{
+		System.out.print("other");	
+	}
+}
+		}
+
+
+
